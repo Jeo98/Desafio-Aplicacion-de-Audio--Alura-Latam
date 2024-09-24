@@ -29,4 +29,14 @@ public class Podcast extends Audio{
     public void setCapitulo(int capitulo) {
         this.capitulo = capitulo;
     }
+
+    @Override
+    public String toString() {
+        return ( super.toString()) + "\n" +
+                "Podcast{" +
+                "tematica='" + tematica + '\'' +
+                ", temporada=" + temporada +
+                ", capitulo=" + capitulo +
+                '}';
+    }
 }

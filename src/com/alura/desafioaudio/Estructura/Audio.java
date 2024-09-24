@@ -28,7 +28,7 @@ public class Audio {
                 '}';
     }
 
-    public void setNombre(String nombre) {
+    public void setTitulo(String nombre) {
         this.titulo = nombre;
     }
 
@@ -46,7 +46,7 @@ public class Audio {
     public void setTipoDeAudio(String tipoDeAudio) {
         this.tipoDeAudio = tipoDeAudio;
     }
-    public String getNombre() {
+    public String getTitulo() {
         return titulo;
     }
 

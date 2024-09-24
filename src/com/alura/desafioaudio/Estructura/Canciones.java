@@ -1,6 +1,6 @@
 package com.alura.desafioaudio.Estructura;
 
-public class Canciones {
+public class Canciones extends Audio {
 
     private String generoMusical;
     private String Album;
