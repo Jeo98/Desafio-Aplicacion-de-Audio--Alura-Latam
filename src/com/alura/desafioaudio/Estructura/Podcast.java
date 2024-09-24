@@ -32,11 +32,9 @@ public class Podcast extends Audio{
 
     @Override
     public String toString() {
-        return ( super.toString()) + "\n" +
-                "Podcast{" +
-                "tematica='" + tematica + '\'' +
-                ", temporada=" + temporada +
-                ", capitulo=" + capitulo +
-                '}';
+        return ( super.toString()) +
+                "\ntematica= " + tematica +
+                "\ntemporada= " + temporada +
+                "\ncapitulo= " + capitulo ;
     }
 }

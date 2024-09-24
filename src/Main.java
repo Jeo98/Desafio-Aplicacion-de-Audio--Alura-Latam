@@ -43,9 +43,7 @@ public class Main {
                 podcast1.setMeGusta();
                 podcast1.setDuracionEnMinutos(7);
                 podcast1.setTipoDeAudio("Música");
-
-
-
+                System.out.println(podcast1.toString());
 
             break;
 

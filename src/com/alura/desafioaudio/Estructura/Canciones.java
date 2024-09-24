@@ -24,9 +24,7 @@ public class Canciones extends Audio {
     @Override
     public String toString() {
         return  ( super.toString()) + "\n" +
-                "Canciones{" +
-                "generoMusical='" + generoMusical + '\'' +
-                ", Album='" + Album + '\'' +
-                '}';
+                 "Genero musical:" + generoMusical + '\n' +
+                  Album + '\n' ;
     }
 }

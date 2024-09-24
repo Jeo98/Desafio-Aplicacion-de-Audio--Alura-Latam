@@ -18,14 +18,12 @@ public class Audio {
 
     @Override
     public String toString() {
-        return "Audio{" +
-                "nombreArtista='" + titulo + '\'' +
-                ", duracionEnMinutos=" + duracionEnMinutos +
-                ", totalDeReproducciones=" + totalDeReproducciones +
-                ", meGusta=" + meGusta +
-                ", calificacion=" + calificacion +
-                ", tipoDeAudio='" + tipoDeAudio + '\'' +
-                '}';
+        return  "Nombre=" + titulo +
+                " \nduracionEnMinutos=" + duracionEnMinutos +
+                " \ntotalDeReproducciones=" + totalDeReproducciones +
+                " \nmeGusta= " + meGusta +
+                " \ncalificacion=" + calificacion +
+                " \ntipoDeAudio=" + tipoDeAudio ;
     }
 
     public void setTitulo(String nombre) {
